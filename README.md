@@ -1,6 +1,6 @@
 <h1>Create a private Ethereum Network in local</h1>
 <div>
-	<ul>
+	<ol>
 		<li>Install and Update Homebrew
 			<ul>
 				<li>Install Homebrew: <b>ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</b></li>
@@ -44,6 +44,5 @@
 				<li>To come out of the geth console: <b>exit</b></li>
 			</ul>
 		</li>
-		 
-	</ul>
+	</ol>	 
 </div>

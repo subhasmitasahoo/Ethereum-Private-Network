@@ -1,20 +1,20 @@
 <h1 style="color: green;">Create a private Ethereum Network in local</h1>
 <div>
 	<ol>
-		<li>Install and Update Homebrew
+		<li><h2>Install and Update Homebrew</h2>
 			<ul>
 				<li>Install Homebrew: <b>ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</b></li>
 				<li><b>brew update</b></li>
 				<li><b>brew upgrade</b></li>
 			</ul>
 		</li>
-		<li>Install Ethereum
+		<li><h2>Install Ethereum</h2>
 			<ul>
 				<li><b>brew tap ethereum/ethereum</b></li>
 				<li><b>brew install ethereum</b></li>
 			</ul>
 		</li>
-		<li>Node creation
+		<li><h2>Node creation</h2>
 			<ul>
 				<li>create a private folder e.g.: <b>mkdir privateEth</b></li>
 				<li>Go inside the directory: <b>cd privateEth</b></li>
@@ -24,7 +24,7 @@
 				<li>Start the node: <b>geth --datadir ./dataDir</b></li>
 			</ul>
 		</li>
-		<li>Geth Console
+		<li><h2>Geth Console</h2>
 			<ul>
 				<li>Open a new console tab</li>
 				<li>Start the geth console: <b>geth attach</b></li>

@@ -56,7 +56,7 @@
 				<li>To see the data Inside a Block: <b>eth.getBlock({Block_no})</b></li>
 				<li>To see the transaction detaild from Tx Hash <b>eth.getTransaction("{Tx Hash}");</b>
 					<ul>
-		<li>Ex<b>eth.getTransaction("0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421")</b></li>
+		<li>Ex: <b>eth.getTransaction("0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421")</b></li>
 					</ul>
 				</li>
 				<li>To come out of the geth console: <b>exit</b></li>

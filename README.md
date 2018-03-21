@@ -33,6 +33,26 @@
 						<li>Ex. <b>geth attach /Users/user1/Desktop/MonthlyEngiTalk/privateEth/private/geth.ipc</b></li>
 					</ul>
 				</li>
+			</ul>
+		</li>
+		<li><h2>Using Docker</h2>
+			<ul>
+				<li>To start a geth Node: <b>docker run -it -p 30304:30304 -p 8546:8546 "subhasmitasahoo/privateethereum"</b></li>
+				<li>To attach a console to the running node: 
+					<ul>
+						<li>Check the list of containers running: <b>docker container list</b></li>
+						<li>Get the container id having image id("subhasmitasahoo/privateethereum")</li>
+						<li>Run: <b>docker exec -it {container_id} geth attach {IPC endpoint}</b>
+							<ul>
+								<li>Ex. <b>docker exec -it 408b1c24e459 geth attach /home/eth_user/privateEth/geth.ipc</b></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li><h2>Commands</h2>
+			<ul>
 				<li>To see the list of current accounts: <b>eth.accounts</b></li>
 				<li>To create an account <b>personal.newAccount()</b></li>
 				<li>Balance of any account(Here index is 0): <b>eth.getBalance(eth.accounts[0])</b></li>

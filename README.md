@@ -28,11 +28,15 @@
 		<li><h2>Geth Console</h2>
 			<ul>
 				<li>Open a new console tab</li>
-				<li>Start the geth console: <b>geth attach (Paste the end point)</b></li>
+				<li>Start the geth console: <b>geth attach {Paste the end point}</b> (Dont include brackets)
+					<ul>
+						<li>Ex. <b>geth attach /Users/user1/Desktop/MonthlyEngiTalk/privateEth/private/geth.ipc</b></li>
+					</ul>
+				</li>
 				<li>To see the list of current accounts: <b>eth.accounts</b></li>
 				<li>To create an account <b>personal.newAccount()</b></li>
 				<li>Balance of any account(Here index is 0): <b>eth.getBalance(eth.accounts[0])</b></li>
-				<li>To get the balance in ether: <b>web3.fromWei(eth.getBalance(eth.coinbase),"ether")</b></li>
+				<li>To get the balance in ether: <b>web3.fromWei(eth.getBalance(eth.coinbase),"ether")</b> 					</li>
 				<li>To see the etherbase account: <b>eth.coinbase</b></li>
 				<li>Balance of etherbase account: <b>eth.getBalance(eth.coinbase)</b></li>
 				<li>To start the miner (This adds balance in etherbase account)<b>miner.start()</b></li>

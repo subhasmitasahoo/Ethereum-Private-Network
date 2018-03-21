@@ -19,7 +19,7 @@
 				<li>create a private folder e.g.: <b>mkdir privateEth</b></li>
 				<li>Go inside the directory: <b>cd privateEth</b></li>
 				<li>Create a genesis file: <b>touch genesis.json</b></li>
-				<li>Copy the contents of genesis file from the github repository <a href="https://github.com/subhasmitasahoo/Ethereum-Private-Network" download>genesis file</a></li>
+				<li>Copy paste the contents of genesis file from here <a href="https://github.com/subhasmitasahoo/Ethereum-Private-Network/blob/master/genesis.json" download>genesis file</a></li>
 				<li>Instantiate the genesis block: <b>geth --datadir ./ethdata1 init ./genesis.json</b></li>
 				<li>Start the node: <b>geth --datadir="./ethdata1" --networkid 55580 --nodiscover --rpcport "8546" --rpccorsdomain "*" --port 30304</b></li>
 				<li>Copy the IPC end point displayed at the end (Ex. /Users/user1/Desktop/MonthlyEngiTalk/privateEth/private/geth.ipc)</li>
@@ -56,10 +56,9 @@
 				<li>To see the data Inside a Block: <b>eth.getBlock({Block_no})</b></li>
 				<li>To see the transaction detaild from Tx Hash <b>eth.getTransaction("{Tx Hash}");</b>
 					<ul>
-						<li>Ex. <b>eth.getTransaction("0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421")</b></li>
+		<li>Ex<b>eth.getTransaction("0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421")</b></li>
 					</ul>
 				</li>
-
 				<li>To come out of the geth console: <b>exit</b></li>
 			</ul>
 		</li>

@@ -40,6 +40,7 @@
 				<li>To start a geth Node: <b>docker run -it -p 30304:30304 -p 8546:8546 "subhasmitasahoo/privateethereum"</b></li>
 				<li>To attach a console to the running node: 
 					<ul>
+						<li>Open a new console window</li>
 						<li>Check the list of containers running: <b>docker container list</b></li>
 						<li>Get the container id having image id("subhasmitasahoo/privateethereum")</li>
 						<li>Run: <b>docker exec -it {container_id} geth attach {IPC endpoint}</b>

@@ -38,6 +38,7 @@
 		<li><h2>Using Docker</h2>
 			<ul>
 				<li>To start a geth Node: <b>docker run -it -p 30304:30304 -p 8546:8546 "subhasmitasahoo/privateethereum"</b></li>
+				<li><b>geth --datadir="./privateEth" --networkid 55580 --nodiscover --rpcport "8546" --rpccorsdomain "*" --port 30304</b></b></li>
 				<li>To attach a console to the running node: 
 					<ul>
 						<li>Open a new console window</li>
